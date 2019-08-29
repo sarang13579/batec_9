@@ -447,17 +447,38 @@ footer p {
   backface-visibility: hidden;
 }
 
-/* Style the front side */
-.flip-box-front {
-  background-color: #bbb;
-  color: black;
+.flip-box-front.steel-img {
+  background-image: url('../images/materials/steel.jpg');
+  color: white;
+}
+
+.flip-box-front.wood-img {
+  background-image: url('../images/materials/wood.jpg');
+  color: white;
+}
+
+.flip-box-front.acrylic-img {
+  background-image: url('../images/materials/acrylic.jpg');
+  color: white;
+}
+
+.flip-box-front.fabric-img {
+  background-image: url('../images/materials/fabric.png');
+  color: white;
+}
+
+.flip-box-front.paper-img {
+  background-image: url('../images/materials/paper.jpg');
+  color: white;
+}
+
+.flip-box-front.leather-img {
+  background-image: url('../images/materials/leather.jpg');
   color: white;
 }
 
 /* Style the back side */
 .flip-box-back {
-  
-  
   transform: rotateY(180deg);
 }
 
