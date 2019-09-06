@@ -692,12 +692,14 @@ footer p {
 	height: 150px;
 	float: left;
 	border-radius: 50%;
-	margin-right: 10px;
+	margin-right: 15px;
 	shape-outside: circle();
 }
 
 .s_intro{
 	padding-bottom: 50px;
+	text-align: justify;
+  	text-justify: inter-word;
 }
 
 
