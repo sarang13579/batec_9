@@ -13,8 +13,8 @@ html{
 
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .row{
@@ -269,26 +269,26 @@ footer p {
 
 
 .product-detail ul li {
-    display: inline-block;
-    background-color: #f9f9f9;
-    border: none;
-    margin: 8px 15px;
-    
+	display: inline-block;
+	background-color: #f9f9f9;
+	border: none;
+	margin: 8px 15px;
+
 }
 
 .product-detail ul li a {
-    text-align: left;
-    font-size: 12px;
-    color: #6d7a83;
-    line-height: 16px;
-    text-decoration: none;
-    padding: 10px 10px;
+	text-align: left;
+	font-size: 12px;
+	color: #6d7a83;
+	line-height: 16px;
+	text-decoration: none;
+	padding: 10px 10px;
 }
 
 .laser_tech .carousel-caption, .instr_detail .carousel-caption {
-  bottom: auto;
-  top: -10px;
-  right: -125px;
+	bottom: auto;
+	top: -10px;
+	right: -125px;
 }
 
 .laser_tech .carousel h5, .instr_detail .carousel h5 {
@@ -416,70 +416,70 @@ footer p {
 
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
-  background-color: transparent;
-  width: 120px;
-  height: 50px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  display: inline-block;
+	background-color: transparent;
+	width: 120px;
+	height: 50px;
+	border: 1px solid #f1f1f1;
+	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	display: inline-block;
 }
 
 /* This container is needed to position the front and back side */
 .flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
 .flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
 }
 
 .flip-box-front.steel-img {
-  background-image: url('../images/materials/steel.jpg');
-  color: white;
+	background-image: url('../images/materials/steel.jpg');
+	color: white;
 }
 
 .flip-box-front.wood-img {
-  background-image: url('../images/materials/wood.jpg');
-  color: white;
+	background-image: url('../images/materials/wood.jpg');
+	color: white;
 }
 
 .flip-box-front.acrylic-img {
-  background-image: url('../images/materials/acrylic.jpg');
-  color: white;
+	background-image: url('../images/materials/acrylic.jpg');
+	color: white;
 }
 
 .flip-box-front.fabric-img {
-  background-image: url('../images/materials/fabric.png');
-  color: white;
+	background-image: url('../images/materials/fabric.png');
+	color: white;
 }
 
 .flip-box-front.paper-img {
-  background-image: url('../images/materials/paper.jpg');
-  color: white;
+	background-image: url('../images/materials/paper.jpg');
+	color: white;
 }
 
 .flip-box-front.leather-img {
-  background-image: url('../images/materials/leather.jpg');
-  color: white;
+	background-image: url('../images/materials/leather.jpg');
+	color: white;
 }
 
 /* Style the back side */
 .flip-box-back {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .flip-box-front img{
@@ -488,99 +488,105 @@ footer p {
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 /*flip-end*/
 
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media screen and (max-width: 600px){
 	header .intro-text {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	
-}
+		margin-top: 0px;
+		margin-bottom: 0px;
 
-.workshop_intro h1{
-	font-size: 30px;
-	padding: 10px 0;
-}
+	}
 
-.workshop_intro p{
-	font-size: 16px;
-}
+	.workshop_intro h1{
+		font-size: 30px;
+		padding: 10px 0;
+	}
 
-.workshop_intro h2{
-	font-size: 18px;
-	margin-bottom: 16px;
-}
+	.workshop_intro p{
+		font-size: 16px;
+	}
 
-.glry h4{
-	font-size: 18px;
-}
+	.workshop_intro h2{
+		font-size: 18px;
+		margin-bottom: 16px;
+	}
 
-.glry p{
-	font-size: 12px;
-	margin-bottom: 0px;
-}
+	.glry h4{
+		font-size: 18px;
+	}
 
-#myBtnContainer .btn{
-	font-size: 12px;
-	padding: 5px;
-	margin: 4px;
-}
+	.glry p{
+		font-size: 12px;
+		margin-bottom: 0px;
+	}
 
-.instr_detail h2{
-	font-size: 22px;
-	padding: 0px;
-}
+	#myBtnContainer .btn{
+		font-size: 12px;
+		padding: 5px;
+		margin: 4px;
+	}
 
-.instr_detail h3{
-	font-size: 18px;
-}
+	.instr_detail h2{
+		font-size: 22px;
+		padding: 0px;
+	}
+
+	.instr_detail h3{
+		font-size: 18px;
+	}
 
 
-.intro{
-	min-height: 30vh;
-	height: calc(var(--vh, 1vh) * 90);
-}
+	.intro{
+		min-height: 30vh;
+		height: calc(var(--vh, 1vh) * 90);
+	}
 
-.intro-text h3{
-  font-size: 30px;
-}
+	.intro-text h3{
+		font-size: 30px;
+	}
 
-.intro-text p{
-  font-size: 16px;
-}
+	.intro-text p{
+		font-size: 16px;
+	}
 
-.round img {
-	position: relative;
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	border: 10px solid rgba(0,0,0,0.1);
-}
+	.round img {
+		position: relative;
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		border: 10px solid rgba(0,0,0,0.1);
+	}
 
-.products h3{
-	font-size: 18px;
-}
+	.products h3{
+		font-size: 18px;
+	}
 
-.products p{
-	font-size: 12px;
-}
+	.products p{
+		font-size: 12px;
+	}
 
-.instruments h1{
-	font-size: 30px;
-}
+	.instruments h1{
+		font-size: 30px;
+	}
+
+	.circle.circle1.sml
+	{
+		width: 100px;
+		height: 100px;
+	}
 
 } 
 
@@ -592,71 +598,106 @@ footer p {
 
 /*-----------------------------*/
 
-	/* Back to top button */
+/* Back to top button */
 
+.back-to-top {
+	position: fixed;
+	display: none;
+	background: #007BFF;
+	color: #fff;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	line-height: 1;
+	font-size: 16px;
+	border-radius: 50%;
+	right: 15px;
+	bottom: 15px;
+	transition: background 0.5s;
+	z-index: 11;
+}
+
+.back-to-top i {
+	padding-top: 12px;
+	color: #fff;
+}
+
+
+.boxes{
+	height: 300px;
+	width: 300px;
+	border: 10px solid black;
+}
+
+
+@media (max-width: 768px) {
 	.back-to-top {
-		position: fixed;
-		display: none;
-		background: #007BFF;
-		color: #fff;
-		width: 44px;
-		height: 44px;
-		text-align: center;
-		line-height: 1;
-		font-size: 16px;
-		border-radius: 50%;
-		right: 15px;
 		bottom: 15px;
-		transition: background 0.5s;
-		z-index: 11;
 	}
-
-	.back-to-top i {
-		padding-top: 12px;
-		color: #fff;
-	}
+}
 
 
-	.boxes{
-		height: 300px;
-		width: 300px;
-		border: 10px solid black;
-	}
+.fltb{
+	padding-bottom: 12px;
+}
 
 
-	@media (max-width: 768px) {
-		.back-to-top {
-			bottom: 15px;
-		}
-	}
+/*---------------------------------------------------*/
+
+/*PHOTOSWIPE*/
+
+.my-gallery {
+	width: 100%;
+	float: left;
+}
+.my-gallery img {
+	width: 100%;
+	height: auto;
+}
+.my-gallery figure {
+	display: block;
+	float: left;
+	/*margin: 0 5px 5px 0;*/
+	/*width: 150px;*/
+}
+.my-gallery figcaption {
+	display: none;
+}
 
 
-	.fltb{
-		padding-bottom: 12px;
-	}
+.serv{
+	position: relative;
+	width: 100%;
+	padding: 50px;
+}
 
+.circle{
+	position: relative;
+	overflow: hidden;
+}
 
-	/*---------------------------------------------------*/
+.circle img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
-	    /*PHOTOSWIPE*/
+.circle.circle1
+{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 50%;
+	margin-right: 10px;
+	shape-outside: circle();
+}
 
-    .my-gallery {
-    	width: 100%;
-    	float: left;
-    }
-    .my-gallery img {
-    	width: 100%;
-    	height: auto;
-    }
-    .my-gallery figure {
-    	display: block;
-    	float: left;
-    	/*margin: 0 5px 5px 0;*/
-    	/*width: 150px;*/
-    }
-    .my-gallery figcaption {
-    	display: none;
-    }
-
+.s_intro{
+	padding-bottom: 50px;
+}
 
 
