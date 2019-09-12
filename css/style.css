@@ -96,6 +96,8 @@ header .intro-text {
 
 }
 
+
+
 .r1 {
 	margin-bottom: 25px; 
 }
@@ -590,6 +592,10 @@ footer p {
 		height: 130px;
 	}
 
+	.grid-list p{
+	font-size: 12px;
+}
+
 } 
 
 
@@ -719,4 +725,8 @@ footer p {
 .service-desc p{
 	text-align: justify;
   	/*text-justify: inter-word;*/
+}
+
+.height1{
+	min-height: 185px;
 }
