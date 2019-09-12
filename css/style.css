@@ -584,8 +584,8 @@ footer p {
 
 	.circle.circle1.sml
 	{
-		width: 100px;
-		height: 100px;
+		width: 130px;
+		height: 130px;
 	}
 
 } 
@@ -668,7 +668,6 @@ footer p {
 .serv{
 	position: relative;
 	width: 100%;
-	padding: 50px;
 }
 
 .circle{
@@ -690,9 +689,9 @@ footer p {
 {
 	width: 150px;
 	height: 150px;
-	float: left;
+	float: right;
 	border-radius: 50%;
-	margin-right: 15px;
+	margin: 20px;
 	shape-outside: circle();
 }
 
