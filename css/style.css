@@ -17,6 +17,8 @@ html{
 	padding: 0;
 }
 
+
+
 .row{
 	margin: 0;
 }
@@ -712,4 +714,9 @@ footer p {
 .navbar-brand img{
 	width: 230px;
 	height: 63px;
+}
+
+.service-desc p{
+	text-align: justify;
+  	/*text-justify: inter-word;*/
 }
