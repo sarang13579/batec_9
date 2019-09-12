@@ -399,9 +399,15 @@ footer p {
 	height: 180px;
 }
 
+.instruments .card {
+    padding: 15px 0;
+    margin: 15px 0;
+    }
+
 .instr_detail h3{
 	color: #00a0e3;
 }
+
 
 
 
