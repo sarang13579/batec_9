@@ -703,3 +703,9 @@ footer p {
 }
 
 
+
+.phtncs img{
+	width: auto;
+    height: 200px;
+	object-fit: cover;
+}
