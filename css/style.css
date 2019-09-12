@@ -236,7 +236,7 @@ footer p {
 }
 #contact .btn-custom:hover {
 	color: #fff;
-	background: #007BFF;
+	background: #00a0e3;
 }
 
 #contact .col-md-6 {
@@ -263,7 +263,7 @@ footer p {
 }
 
 .laser_page h1{
-	color: #007BFF;
+	color: #00a0e3;
 	font-size: 30px;
 }
 
@@ -292,14 +292,14 @@ footer p {
 }
 
 .laser_tech .carousel h5, .instr_detail .carousel h5 {
-	color: #007bff;
+	color: #00a0e3;
 	font-weight: bolder;
 	font-size: 20px;
 
 }
 
 .laser_tech .carousel-indicators li, .instr_detail .carousel-indicators li{
-	background-color: #007bff;
+	background-color: #00a0e3;
 }
 
 .laser_tech .carousel-control-next-icon, .instr_detail .carousel-control-next-icon{
@@ -331,7 +331,7 @@ footer p {
 
 
 .CO2 h2{
-	color: #007BFF;
+	color: #00a0e3;
 }
 
 
@@ -342,7 +342,7 @@ footer p {
 
 
 .fiber h2{
-	color: #007BFF;
+	color: #00a0e3;
 }
 
 .sz{
@@ -350,12 +350,12 @@ footer p {
 }
 
 .marking h2{
-	color: #007BFF;
+	color: #00a0e3;
 }
 
 /*Laser workshop*/
 .workshop_intro h1{
-	color: #007BFF;
+	color: #00a0e3;
 	padding: 18px 0;
 	font-size: 40px;
 }
@@ -388,7 +388,7 @@ footer p {
 /*Instruments*/
 
 .instruments h1{
-	color: #007BFF;
+	color: #00a0e3;
 }
 
 .instruments .card-img-top {
@@ -396,7 +396,7 @@ footer p {
 }
 
 .instr_detail h3{
-	color: #007BFF;
+	color: #00a0e3;
 }
 
 
@@ -406,7 +406,7 @@ footer p {
 }
 
 .workshop h1, .serv h1{
-	color: #007BFF;
+	color: #00a0e3;
 	font-size: 30px;
 }
 
@@ -603,7 +603,7 @@ footer p {
 .back-to-top {
 	position: fixed;
 	display: none;
-	background: #007BFF;
+	background: #00a0e3;
 	color: #fff;
 	width: 44px;
 	height: 44px;
