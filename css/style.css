@@ -736,3 +736,12 @@ footer p {
 .height1{
 	min-height: 185px;
 }
+
+.description p{
+	font-size: 13px;
+}
+
+pre{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
