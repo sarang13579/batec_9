@@ -88,6 +88,15 @@ header .intro-text {
     transition-delay: 0s;*/
 }
 
+
+
+.navbar-nav .nav-item{
+	padding: 0 19px;
+}
+
+
+
+
 /*GRID - SECTION*/
 
 .grid-list{
@@ -603,6 +612,8 @@ footer p {
 }
 
 } 
+
+
 
 
 .fltb .btn{
