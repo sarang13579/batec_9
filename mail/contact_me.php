@@ -15,9 +15,9 @@ $message = $_POST['message'];
 	
 // Create the email and send the message
 $to = 'sarang@batec-services.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$to2 = 'b.baier@batec-services.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$to3 = 'info@batec-services.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$to4 = 'apaliwal@batec-services.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+//$to2 = 'b.baier@batec-services.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+//$to3 = 'info@batec-services.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+//$to4 = 'apaliwal@batec-services.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 
 
 $email_subject = "Website Contact Form:  $name";
