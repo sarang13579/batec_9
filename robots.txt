@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: http://www.batec-services.com/?gclid=EAIaIQobChMI69mwurmO5QIVkxePCh3siQ-dEAAYASAAEgIJPPD_BwE
+Sitemap: http://batec-services.com/sitemap.xml
