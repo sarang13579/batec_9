@@ -46,7 +46,7 @@ html{
 	margin-bottom: 40px;
 	color: #fff;
 }
-.intro h3 {
+.intro h1 {
 	color: #fff;
 	font-size: 45px;
 	font-weight: 700;
@@ -573,7 +573,7 @@ footer p {
 		height: calc(var(--vh, 1vh) * 90);
 	}
 
-	.intro-text h3{
+	.intro-text h1{
 		font-size: 30px;
 	}
 
